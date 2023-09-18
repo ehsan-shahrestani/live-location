@@ -1,0 +1,12 @@
+<p>
+     <b>
+          {{currentLocation}}
+     </b>
+
+</p>
+
+
+<div id="map" #map style="height: 100dvh;"
+     leaflet 
+     [leafletOptions]="options"  (leafletClick)="addMarker($event)" [leafletLayer]="layer" (leafletMapReady)="onMapReady($event)" >
+</div>

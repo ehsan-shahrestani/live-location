@@ -1,0 +1,73 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="65.390625" height="65.390625" id="svg8153" foxified="">
+  <defs id="defs8155"/>
+  <metadata id="metadata8158">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform="translate(-342.30469,-499.65905)" id="layer1">
+    <g transform="matrix(1.25,0,0,-1.25,375,545.74168)" id="g4939">
+      <path d="m 0,0 c 5.911,0 10.704,4.792 10.704,10.704 0,5.911 -4.793,10.703 -10.704,10.703 -5.911,0 -10.704,-4.792 -10.704,-10.703 C -10.704,4.792 -5.911,0 0,0" id="path4941" style="fill:#d76027;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
+    </g>
+    <g transform="matrix(1.25,0,0,-1.25,375,556.92468)" id="g4943">
+      <path d="M 0,0 C 10.852,0 19.65,8.798 19.65,19.65 19.65,30.502 10.852,39.3 0,39.3 -10.852,39.3 -19.65,30.502 -19.65,19.65 -19.65,8.798 -10.852,0 0,0 z" id="path4945" style="fill:none;stroke:#d76027;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"/>
+    </g>
+    <g transform="matrix(1.25,0,0,-1.25,375,564.42468)" id="g4947">
+      <path d="M 0,0 C 14.166,0 25.65,11.484 25.65,25.65 25.65,39.816 14.166,51.3 0,51.3 -14.166,51.3 -25.65,39.816 -25.65,25.65 -25.65,11.484 -14.166,0 0,0 z" id="path4949" style="fill:none;stroke:#d76027;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"/>
+    </g>
+  </g>
+<div xmlns="" id="divScriptsUsed" style="display: none"/><script xmlns="" id="globalVarsDetection" src="chrome-extension://cmkdbmfndkfgebldhnkbfhlneefdaaip/js/wrs_env.js"/><style xmlns="">@font-face{
+    font-family: 'bnazanin';
+    src:'./../../fonts/bnazanin.ttf';
+}
+
+.dideo-tooltip {
+    position: relative;
+    display: inline-block;
+    font-family: 'bnazanin';
+    font-size: 0;
+    padding: 3px 5px;
+}
+
+.dideo-tooltip .tooltiptext {
+    visibility: hidden;
+    font-family: 'bnazanin';
+    width: 120px;
+    font-size: 13px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 110%;
+}
+.dideo-img{
+    width: 18px;
+    height: 18px;
+    margin-bottom: -3px;
+    filter: drop-shadow(0px 0px 2px #adadad);
+    webkit:filter: drop-shadow(0px 0px 2px #adadad);
+}
+.dideo-tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.dideo-tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.srg{
+    min-width: 750px;
+}</style></svg>
