@@ -62,7 +62,7 @@ export class MapComponent implements OnInit {
     // this.currentLocation  = `${data.latlng.lat}, ${data.latlng.lng}`
     let lat = data.latlng.lat
     let lng = data.latlng.lng
-    marker([lat, lng], this.markerOption).addTo(this.map)
+    // marker([lat, lng], this.markerOption).addTo(this.map)
   }
 
 
