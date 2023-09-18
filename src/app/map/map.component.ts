@@ -77,7 +77,10 @@ export class MapComponent implements OnInit {
       navigator.geolocation.getCurrentPosition((position) => {
         this.currentLocation = `${position.coords.latitude}, ${position.coords.longitude}`
         let markera = marker([position.coords.latitude, position.coords.longitude], this.markerOption).addTo(this.map)
-
+        this.map.flyTo([position.coords.latitude, position.coords.longitude], 15, {
+          animate: false,
+          duration: 0
+        });
       },
         error => {
           // window.alert("دسترسی به موقعیت شما امکان پذیر نمی باشد. لطفا روی نقشه مکان خود را مشخص کنید")
